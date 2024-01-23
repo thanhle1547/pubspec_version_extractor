@@ -1,0 +1,6 @@
+targets:
+  $default:
+    builders:
+      pubspec_version_extractor:
+        options:
+          output: lib/src/custom/path

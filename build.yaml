@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      pubspec_version_extractor:
+        enabled: True
+
+builders:
+  pubspec_version_extractor:
+    import: "package:pubspec_version_extractor/builder.dart"
+    builder_factories: [ "pubspecVersionExtractor" ]
+    build_extensions: { "$lib$": [ "pubspec_version.g.dart" ] }
+    auto_apply: root_package
+    build_to: source
