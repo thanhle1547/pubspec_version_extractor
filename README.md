@@ -22,18 +22,32 @@ const String pubspecVersionSuffix = '-dev+40';
 
 ## Installation
 
-If you are using creating a Flutter project:
+Add `pubspec_version_extractor` to **dev_dependencies**.
+
+In Flutter project:
 
 ```shell
 $ flutter pub add --dev pubspec_version_extractor
 $ flutter pub add --dev build_runner
 ```
 
-If you are using creating a Dart project:
+In Dart project:
 
 ```shell
 $ dart pub add --dev pubspec_version_extractor
 $ dart pub add --dev build_runner
+```
+
+#### Usage as a command line tool
+
+```shell
+dart run pubspec_version_extractor
+```
+
+#### Usage with build_runner
+
+```shell
+dart run build_runner build
 ```
 
 ## Configuration
