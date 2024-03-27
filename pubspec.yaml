@@ -1,12 +1,13 @@
 name: pubspec_version_extractor
 description: Extract version from pubspec.yaml to Dart code.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/thanhle1547/pubspec_version_extractor
 
 environment:
   sdk: ^3.0.0
 
 dependencies:
+  args: ^2.4.2
   build: ^2.4.1
   code_builder: ^4.9.0
   dart_style: ^2.3.4
@@ -20,3 +21,6 @@ dev_dependencies:
   test_descriptor: ^2.0.1
   test_process: ^2.1.0
   pubspec_parse: ^1.2.3
+
+executables:
+  pubspec_version_extractor:
