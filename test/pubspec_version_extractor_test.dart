@@ -331,10 +331,10 @@ Future<void> _structurePackage({
       'name': '_test_pkg',
       'version': version,
       'publish_to': 'none',
-      'environment': {'sdk': '>=2.12.0 <4.0.0'},
+      'environment': {'sdk': '>=3.7.0 <4.0.0'},
       'dependencies': _jsonSerialPathDependency,
       'dev_dependencies': {
-        'build_runner': '2.4.7',
+        'build_runner': '2.5.0',
         'pubspec_version_extractor': {
           'path': _fixPath(''),
         },
