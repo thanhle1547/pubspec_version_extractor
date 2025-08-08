@@ -1,3 +1,10 @@
+## 1.1.1
+
+- Use `build` 2.5.0.
+- Use `frontend_server_client` with constraint `>=3.2.0 <5.0.0` to allow version `4.0.0`
+- Bump the min SDK to 3.7.0.
+
+
 ## 1.1.0
 
 - Add executable script.
