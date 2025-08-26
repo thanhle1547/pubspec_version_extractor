@@ -61,7 +61,9 @@ Future<int> extractVersion({
   }
 
   final RegExpMatch? match = version == null ? null : _versionRegex.firstMatch(version);
-  final DartFormatter formatter = DartFormatter();
+  final DartFormatter formatter = DartFormatter(
+    languageVersion: DartFormatter.latestLanguageVersion,
+  );
   final DartEmitter emitter = _CustomDartEmitter();
 
   final Library library = _generateLibrary(version, match);

@@ -1,3 +1,8 @@
+## 1.1.3
+
+- Missing required named parameter `languageVersion` to initialize `DartFormatter`.
+
+
 ## 1.1.2
 
 - Use `dart_style` 3.0.0.
