@@ -1,6 +1,6 @@
 name: pubspec_version_extractor
 description: Extract version from pubspec.yaml to Dart code.
-version: 1.1.4
+version: 1.1.5
 repository: https://github.com/thanhle1547/pubspec_version_extractor
 
 environment:
@@ -8,8 +8,8 @@ environment:
 
 dependencies:
   args: ^2.4.2
-  build: ^3.0.0
-  code_builder: ^4.10.1
+  build: ^4.0.3
+  code_builder: ^4.11.0
   dart_style: ^3.0.0
   frontend_server_client: '>=3.2.0 <5.0.0'
   path: ^1.8.3

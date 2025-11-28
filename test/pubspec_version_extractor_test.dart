@@ -334,7 +334,7 @@ Future<void> _structurePackage({
       'environment': {'sdk': '>=3.7.0 <4.0.0'},
       'dependencies': _jsonSerialPathDependency,
       'dev_dependencies': {
-        'build_runner': '2.5.0',
+      'build_runner': '2.10.4',
         'pubspec_version_extractor': {
           'path': _fixPath(''),
         },
